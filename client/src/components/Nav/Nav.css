@@ -2,11 +2,11 @@
   display: flex;
   flex: 1;
   align-items: center;
-  width: calc(100% - (50% - 233px / 2 - 588.5px));
+  width: calc(1440px - 15px);
   height: 46px;
   background-color: #2d63ec;
   font-family: "Urbanist", sans-serif;
   font-weight: 600;
-  padding-left: calc(50% - 233px / 2 - 588.5px);
+  padding-left: 15px;
   color: #ffffff;
 }
