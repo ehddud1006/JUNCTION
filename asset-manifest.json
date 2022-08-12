@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JUNCTION/static/css/main.5934b7c2.css",
+    "main.css": "/JUNCTION/static/css/main.867efefe.css",
     "main.js": "/JUNCTION/static/js/main.54b870bb.js",
     "static/js/787.c4e7f8f9.chunk.js": "/JUNCTION/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/JUNCTION/index.html",
-    "main.5934b7c2.css.map": "/JUNCTION/static/css/main.5934b7c2.css.map",
+    "main.867efefe.css.map": "/JUNCTION/static/css/main.867efefe.css.map",
     "main.54b870bb.js.map": "/JUNCTION/static/js/main.54b870bb.js.map",
     "787.c4e7f8f9.chunk.js.map": "/JUNCTION/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5934b7c2.css",
+    "static/css/main.867efefe.css",
     "static/js/main.54b870bb.js"
   ]
 }
