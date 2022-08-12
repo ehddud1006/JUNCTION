@@ -1,0 +1,36 @@
+.guide {
+  /* display: flex;
+  flex-direction: row;
+  align-items: flex-start; */
+  padding: 6px 10px;
+  gap: 8px;
+
+  position: absolute;
+  height: 16px;
+  left: 40px;
+  top: calc(50% - 28px / 2 + 29.5px);
+
+  background: #dce4f8;
+  border-radius: 4px;
+}
+
+.guideText {
+  /* Text Size Gide */
+
+  height: 16px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: justify;
+
+  color: #2d63ec;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
