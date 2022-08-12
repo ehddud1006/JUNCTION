@@ -1,0 +1,67 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 10px;
+  gap: 8px;
+
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: calc(50% - 140px / 2 - 610px);
+  top: calc(50% - 48px / 2 + 107.5px);
+
+  background: #2d63ec;
+}
+
+.button:hover,
+.button:focus {
+  background: #f2f6ff;
+}
+
+.button:active {
+  background: #214ab3;
+}
+
+.button:disabled,
+.button[disabled] {
+  background-color: #e6e6e6;
+}
+
+.button:hover .buttonText,
+.button:focus .buttonText {
+  color: #2d63ec;
+}
+
+.button:active .buttonText {
+  color: #ffffff;
+}
+.button:disabled .buttonText,
+.button[disabled] .buttonText {
+  color: #ffffff;
+}
+
+.buttonText {
+  /* Text Size Gide */
+
+  width: 40px;
+  height: 20px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
