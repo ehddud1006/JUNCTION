@@ -1,0 +1,130 @@
+.justMainPage {
+  position: relative;
+}
+.justMainPage .justMainPageTitle {
+  position: absolute;
+  width: 221px;
+  height: 60px;
+  left: 40px;
+  top: 328px;
+
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.justMainPage .justMainPageSubTitle {
+  position: absolute;
+  width: 1360px;
+  height: 40px;
+  left: 40px;
+  top: 408px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+
+  color: #000000;
+}
+.justMainPage .justMainPageP1 {
+  position: absolute;
+  width: 660px;
+  height: 80px;
+  left: 40px;
+  top: 478px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.justMainPage .justMainPageP2 {
+  position: absolute;
+  width: 660px;
+  height: 80px;
+  left: 741px;
+  top: 474px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.justMainPageInfo {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 40px;
+  top: 876px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: justify;
+
+  color: #b7b7b7;
+}
+
+.justMainPageSelectTitle {
+  /* information */
+
+  position: absolute;
+  width: 103px;
+  height: 23px;
+  left: 751px;
+  top: 820px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.justMainPageSelectSubTitle {
+  /* Choose the one that applies */
+
+  position: absolute;
+  width: 207px;
+  height: 20px;
+  left: 751px;
+  top: 860px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #000000;
+}
