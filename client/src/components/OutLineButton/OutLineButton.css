@@ -44,8 +44,7 @@
   flex-grow: 0;
 }
 
-.outLineButton:hover,
-.outLineButton:focus {
+.outLineButton:hover {
   background: #ffffff;
   border: 1px solid #2d63ec;
 }
@@ -60,8 +59,7 @@
   background: #ffffff;
   border: 1px solid #e6e6e6;
 }
-.outLineButton:hover .outLineButtonText,
-.outLineButton:focus .outLineButtonText {
+.outLineButton:hover .outLineButtonText {
   color: #2d63ec;
 }
 
