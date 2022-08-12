@@ -1,0 +1,74 @@
+.outLineButton {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 10px;
+  gap: 8px;
+
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: calc(50% - 140px / 2 - 610px);
+  top: calc(50% - 48px / 2 + 224.5px);
+
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+.outLineButtonText {
+  /* Text Size Gide */
+
+  width: 40px;
+  height: 20px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #111111;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.outLineButton:hover,
+.outLineButton:focus {
+  background: #ffffff;
+  border: 1px solid #2d63ec;
+}
+
+.outLineButton:active {
+  background: #f2f6ff;
+  border: 1px solid #2d63ec;
+}
+
+.outLineButton:disabled,
+.outLineButton[disabled] {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+.outLineButton:hover .outLineButtonText,
+.outLineButton:focus .outLineButtonText {
+  color: #2d63ec;
+}
+
+.outLineButton:active .outLineButtonText {
+  color: #2d63ec;
+}
+.outLineButton:disabled .outLineButtonText,
+.outLineButton[disabled] .outLineButtonText {
+  color: #e6e6e6;
+}
