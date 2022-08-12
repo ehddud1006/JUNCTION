@@ -4,7 +4,7 @@ import JustMainPage from "./pages/JustMainPage";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="JUNCTION">
       <Routes>
         <Route path="/" element={<JustMainPage></JustMainPage>}></Route>
       </Routes>
