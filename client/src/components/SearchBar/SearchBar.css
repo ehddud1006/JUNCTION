@@ -1,0 +1,40 @@
+.searchBarPosition {
+  position: absolute;
+  left: 40px;
+  top: 1125px;
+}
+.searchBarWrapper {
+  /* Rectangle 23796 */
+  width: 360px;
+  height: 47px;
+  background: #ffffff;
+  border: 1px solid #e6eaee;
+  position: relative;
+}
+
+.searchBar {
+  padding: 0px 15px;
+  box-sizing: border-box;
+  width: calc(360px - 30px);
+  height: 47px;
+  background: #ffffff;
+  border: none;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+.searchBarIcon {
+  position: absolute;
+  left: 323px;
+  top: 12px;
+  width: 20px;
+  height: 20px;
+}
